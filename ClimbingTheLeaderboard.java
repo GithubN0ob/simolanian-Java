@@ -27,7 +27,6 @@ class GoodMethodPerformanceWise {
         
         int current = scores.length-1;
         for (int i: alice) {
-            
             try {
                 while (scores[current] <= i) {
                     current--;
@@ -37,6 +36,7 @@ class GoodMethodPerformanceWise {
             }
             lst.add(current+2);
         }
+        
         int ii = IntStream.of(scores).max().getAsInt();
         
         // System.out.println(lst);
