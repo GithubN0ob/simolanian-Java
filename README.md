@@ -1,2 +1,2 @@
 # simolanian-Java
-IntStreams are sexy af
+[Insert test]
